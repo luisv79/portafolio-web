@@ -1,17 +1,19 @@
 import parsonalImg from '../assets/img/yo_n.png'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faXTwitter, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import { faMobileScreen, faEnvelopeOpenText, faLocationDot, faCalendarDays } from '@fortawesome/free-solid-svg-icons'
+import { faMobileScreen, faEnvelopeOpenText, faLocationDot, faCalendarDays, faDownload } from '@fortawesome/free-solid-svg-icons'
 function PersonalArea() {
     return (
         <>
         <div className="personal-area">
+            <div className="personal-area-wrap">
+
             <div className="personal-area_info">
                 <div className="personal-img">
                     <img src={parsonalImg} alt="yo" />
                 </div>
             </div>
-            <h4 className="personal-area_info">Luis Valladares</h4>
+            <h4 className="personal-area_info-nombre">Luis Valladares</h4>
             <span className="personal-area_info-bio">Desarrollador web</span>
             <ul className="personal-area_social-link">
                 <li><FontAwesomeIcon icon={faFacebookF} /> </li>
@@ -56,6 +58,14 @@ function PersonalArea() {
                         <p>7 septiembre</p>
                     </div>
                 </div>
+            </div>
+            <div className="personal-area_boton">
+            <a className="btn-2" href="/cv.pdf" download="">
+            <span className="icon">
+            <FontAwesomeIcon icon={faDownload} />
+                </span>download cv</a>
+            </div>
+            
             </div>
         </div>
         

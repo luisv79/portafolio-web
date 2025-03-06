@@ -19,10 +19,10 @@ function App() {
           </div>
           <div className="container">
             <div className="row">
-              <div className="col-4">
+              <div className="col-xxl-4 col-xl-4 col-lg-4">
               <PersonalArea />
               </div>
-              <div className="col-8">
+              <div className="col-xxl-8 col-xl-8 col-lg-8">
               <div>
                   < Menu />
                   <Routes>
