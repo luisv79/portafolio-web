@@ -6,9 +6,7 @@ function Resumen() {
        <>
      <div className="area-contenido">
             <div className="resumen-area ps-4 pe-4 pt-4">
-                <div className="resumen-area_titulo">
-                     <h2>Resumen</h2>
-                </div>
+                 
                 <div className="resumen-area_descripcion ps-4 pe-4 mb-4">
                   <div className="row">
                     <div className="col-xl-6 col-lg-7">

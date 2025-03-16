@@ -1,4 +1,6 @@
 import Imagen from '../assets/img/img.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFile, faUser, faCode, faArrowUpRightFromSquare, faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 function Works() {
     return (
         <>
@@ -30,24 +32,20 @@ function Works() {
                         <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                             <div className="modal-content text-bg-dark">
                            
-                               
-                           
-                            <div className="modal-body">
-  <h6 className="blog-title">Chul urina</h6>
+                             <div className="modal-body">
+  <h6 className="modal-titulo">Chul urina</h6>
   <div className="portfolio-modal-table">
     <div className="row"><div className="col-md-6">
-        <h3 className="portfolio-modal-table-text">
-          <i className="fa-regular fa-file-lines" />
-          Project : <span>website</span></h3>
+        <h3 className="portfolio-modal-table-text"><FontAwesomeIcon icon={faFile} /> Project : <span>website</span></h3>
       </div>
       <div className="col-md-6">
-        <h3 className="portfolio-modal-table-text"><i className="fa-regular fa-user " />Client : <span>Envato</span></h3>
+        <h3 className="portfolio-modal-table-text"><FontAwesomeIcon icon={faUser} /> Client : <span>Envato</span></h3>
       </div>
       <div className="col-md-6">
-        <h3 className="portfolio-modal-table-text"><i className="fa-solid fa-code" />Langages : <span>Photoshop, Figma</span></h3>
+        <h3 className="portfolio-modal-table-text"><FontAwesomeIcon icon={faCode} /> Langages : <span>Photoshop, Figma</span></h3>
       </div>
       <div className="col-md-6">
-        <h3 className="portfolio-modal-table-text"><i className="fa-solid fa-arrow-up-right-from-square" />Preview : <a href="#">www.envato.com</a></h3>
+        <h3 className="portfolio-modal-table-text"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Preview : <a href="#">www.envato.com</a></h3>
       </div>
     </div>
   </div>
@@ -72,13 +70,10 @@ function Works() {
   </div>
 </div>
 
-                            <div className="modal-footer">
-                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             
                             </div>
-                            </div>
                             
-                          <div className="modal-header"><button type="button" className="close" data-bs-dismiss="modal"><i className="far fa-times" /></button></div>
+                          <div className="modal-header"><button type="button" className="close" data-bs-dismiss="modal"><FontAwesomeIcon icon={faCircleXmark} /></button></div>
 
                         </div>
                         </div>

@@ -12,7 +12,8 @@ function App() {
 
   return (
     <>
-      <body className="theme">
+      <div>
+        <main className="theme">
         <div className="page-home">
           <div className="header-area">
             <Header />  
@@ -36,7 +37,8 @@ function App() {
             </div>
           </div>
         </div>
-      </body>
+        </main>
+        </div>
     </>
   )
 }

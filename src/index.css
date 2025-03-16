@@ -623,3 +623,178 @@ a.active {
 
 }
 
+.modal-titulo{
+  font-family: Poppins, sans-serif;
+  margin-top: 0;
+    line-height: 1.5;
+    font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: #0a6bfc ;
+  margin-bottom: 35px;
+  text-transform: capitalize;
+}
+
+.portfolio-modal-table-text{
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  margin-bottom: 15px;
+  margin-top: 0;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.h1-modal-paragraph{
+  margin-bottom: 30px;
+  pointer-events: auto;
+}
+
+.h1-modal-paragraph p{
+  font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #a6a6a6;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.h1-modal-img{
+  border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.h1-modal-img img{
+  color: transparent;
+    width: 100%;
+    height: fit-content;
+    max-height: 450px;
+    object-fit: cover;
+    transition: .3s;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.modal-header{
+    right: 16%;
+    top: 5%;
+    display: inline-block;
+    position: fixed;
+    border-bottom: 0;
+    padding: 0;
+    align-items: center;
+    border-bottom: none !important;
+}
+
+.modal-header .close{
+  background: transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid;
+    line-height: 38px;
+    transition: .3s;
+    text-transform: none;
+    margin: 0;
+    font-family: inherit;
+
+}
+
+
+
+.contacto-area_titulo h2{
+  position: relative;
+    display: inline-block;
+    font-family: Roboto, serif;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 0;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.contacto-area_descripcion-folmulario{
+  background-color: #0d0d0d;
+    padding: 60px 45px;
+    border-radius: 20px;
+}
+
+.contacto-titulo{
+  font-family: Poppins, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #a6a6a6;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+  margin-top: 0;
+    line-height: 1.5;
+}
+
+.contacto-titulo-b{
+  font-family: Poppins, sans-serif;
+  font-size: 25px;
+    font-weight: 700;
+    text-transform: lowercase;
+    margin-bottom: 45px;
+    color: #fff;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+input[type=text] {
+  background-color: transparent;
+  color: #fff;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+textarea {
+  color: #fff;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+  font-size: 16px;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+.btn-form{
+  font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: capitalize;
+    height: 50px;
+    width: 133px;
+    border: 1px solid #44566c;
+    border-radius: 12px;
+    margin-top: 60px;
+}
+
+.btn-form:hover{
+  background: linear-gradient(97deg, #527ffa, #3724dd);
+}
+
+.error {
+  padding: 10px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  }
+  
