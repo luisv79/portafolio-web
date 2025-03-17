@@ -159,11 +159,82 @@ body{
       display: grid;
       background-color: black;
       color: white;
-      width: 30px;
-      height: 30px;
+      width: 40px;
+      height: 40px;
       border-radius: 50px;
       align-content: center;
       justify-content: center;
+}
+
+.btn-menu-movil{
+  background: linear-gradient(97deg, #527ffa, #3724dd);
+  color: #fff;
+  position: relative;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.menu-movil-total{
+  position: relative;
+}
+
+.menu-movil{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform-origin: top;
+  z-index: 5;
+}
+
+
+.menu-movil_bar{
+  background-color: #000;
+  border-radius: 12px;
+  box-shadow: 0 6px 6px hsla(0, 0%, 93%, .2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.movil-nav{
+  margin-top: 0;
+  background-color: #000;
+}
+
+.movil-nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-menu_movil{
+  padding-top: 5px;
+  padding-bottom: 4px;
+  padding: 0 40px;
+}
+
+.link-menu_item_movil{
+  border: none;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #a6a6a6;
+    padding: 5px 0;
+}
+
+
+
+.iconos-menu{
+  display: flex;
+    justify-content: space-evenly;
 }
 
 .personal-area{
@@ -798,3 +869,14 @@ textarea {
   border-radius: 10px;
   }
   
+  @media (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px){
+    .main-menu{
+      display: none;
+    } 
+  }
+
+  @media (min-width: 992px) {
+    .btn-menu-movil {
+        display: none !important;
+    }
+}
