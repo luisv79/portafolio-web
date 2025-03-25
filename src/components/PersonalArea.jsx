@@ -60,7 +60,7 @@ function PersonalArea() {
                 </div>
             </div>
             <div className="personal-area_boton">
-            <a className="btn-2" href="/cv.pdf" download="">
+            <a className="btn-2" href="/MiCV.pdf" download>
             <span className="icon">
             <FontAwesomeIcon icon={faDownload} />
                 </span>download cv</a>

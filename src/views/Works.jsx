@@ -16,6 +16,7 @@ function Works() {
             </div>
             <div className="col-12">
                 <div className="trabajos-portafolio">
+                    
                    <div className="trabajos-portafolio_muestras">
                     <div className="trabajos-portafolio_muestras-item">
                         <div className="trabajo-portafolio-cursor" data-bs-toggle="modal" data-bs-target="#exampleModal">
