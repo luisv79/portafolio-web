@@ -15,19 +15,19 @@ function Resumen() {
                       </div>
                       <div className="resumen-area_card">
                         <div className="resumen-area_card-item mb-2">
-                        <span>2002 - 2003</span>
-                         <h6>estudio Trabajo</h6>
-                        <p>Los Angeles, CA</p>
+                        <span>2023 - 2024</span>
+                         <h6>Desafio latam</h6>
+                        <p>Desarrollador Full Stack JavaScript</p>
                         </div>
                         <div className="resumen-area_card-item mb-2">
-                        <span>2002 - 2003</span>
-                         <h6>estudio trabajo</h6>
-                        <p>Los Angeles, CA</p>
+                        <span>2016 - 2017</span>
+                         <h6>Instituto Comunicacion web UNEWEB</h6>
+                        <p>Diplomado de programación web</p>
                         </div>
                         <div className="resumen-area_card-item mb-2">
-                        <span>2002 - 2003</span>
-                         <h6>estudio trabajo</h6>
-                        <p>Los Angeles, CA</p>
+                        <span>2005 - 2008</span>
+                         <h6>C.I.D.I.G centro instituto de diseño gráfico</h6>
+                        <p>Diseñador Gráfico</p>
                         </div>
                       </div>
                     </div>
@@ -37,19 +37,19 @@ function Resumen() {
                       </div>
                       <div className="resumen-area_card">
                         <div className="resumen-area_card-item mb-2">
-                        <span>2002 - 2003</span>
-                         <h6>estudio universidad</h6>
-                        <p>Los Angeles, CA</p>
+                        <span>2022 - 2023</span>
+                         <h6>Desarrollador Web</h6>
+                        <p>Infova LATAM</p>
                         </div>
                         <div className="resumen-area_card-item mb-2">
-                        <span>2002 - 2003</span>
-                         <h6>estudio universidad</h6>
-                        <p>Los Angeles, CA</p>
+                        <span>2021</span>
+                         <h6>Desarrollador Web</h6>
+                        <p>Click Market SPA</p>
                         </div>
                         <div className="resumen-area_card-item mb-2">
-                        <span>2002 - 2003</span>
-                         <h6>estudio universidad</h6>
-                        <p>Los Angeles, CA</p>
+                        <span>2017 - 2020</span>
+                         <h6>Freelance</h6>
+                        <p>Proyectos Freelance</p>
                         </div>
                       </div>
                     </div>

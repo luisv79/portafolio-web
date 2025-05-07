@@ -11,8 +11,8 @@ function Contacto() {
                 </div>
                 <div className="contacto-area_descripcion ps-4 pe-4 pb-4">
                    <div className="contacto-area_descripcion-folmulario">
-                      <h5 className="contacto-titulo">I'm always open to discussing produuct</h5>
-                      <h5 className="contacto-titulo-b">design work or partnerships.</h5>
+                      <h5 className="contacto-titulo">Déjame tu datos y enviame un mensaje</h5>
+                      <h5 className="contacto-titulo-b">Me comunicare contigo.</h5>
 
                      <Formulario />
 

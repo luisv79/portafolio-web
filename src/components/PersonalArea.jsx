@@ -1,7 +1,7 @@
 import parsonalImg from '../assets/img/yo_n.png'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faXTwitter, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import { faMobileScreen, faEnvelopeOpenText, faLocationDot, faCalendarDays, faDownload } from '@fortawesome/free-solid-svg-icons'
+import {  faLinkedinIn,faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faMobileScreen, faEnvelopeOpenText, faLocationDot, faDownload } from '@fortawesome/free-solid-svg-icons'
 function PersonalArea() {
     return (
         <>
@@ -14,12 +14,11 @@ function PersonalArea() {
                 </div>
             </div>
             <h4 className="personal-area_info-nombre">Luis Valladares</h4>
-            <span className="personal-area_info-bio">Desarrollador web</span>
+            <span className="personal-area_info-bio">Desarrollador FullStack</span>
             <ul className="personal-area_social-link">
-                <li><FontAwesomeIcon icon={faFacebookF} /> </li>
-                <li><FontAwesomeIcon icon={faXTwitter} /></li>
-                <li><FontAwesomeIcon icon={faInstagram} /></li>
+                <li><FontAwesomeIcon icon={faGithub} /></li>
                 <li><FontAwesomeIcon icon={faLinkedinIn} /></li>
+                
             </ul>
             <div className="personal-area_contacto">
                 <div className="personal-area_contacto_item">
@@ -27,8 +26,8 @@ function PersonalArea() {
                     <FontAwesomeIcon icon={faMobileScreen} />
                     </div>
                     <div className="texto">
-                        <span>Phone</span>
-                        <p>+123 456 789</p>
+                        <span>Móvil</span>
+                        <p>+56 9 8996 2985</p>
                     </div>
                 </div>
                 <div className="personal-area_contacto_item">
@@ -37,7 +36,7 @@ function PersonalArea() {
                     </div>
                     <div className="texto">
                         <span>Email</span>
-                        <p>email@example.com</p>
+                        <p>luisvalladares79@gmail.com</p>
                     </div>
                 </div>
                 <div className="personal-area_contacto_item">
@@ -49,15 +48,7 @@ function PersonalArea() {
                         <p>Santiago Chile</p>
                     </div>
                 </div>
-                <div className="personal-area_contacto_item">
-                <div className="icon">
-                <FontAwesomeIcon icon={faCalendarDays} />
-                    </div>
-                    <div className="texto">
-                        <span>Cumpleaños</span>
-                        <p>7 septiembre</p>
-                    </div>
-                </div>
+                
             </div>
             <div className="personal-area_boton">
             <a className="btn-2" href="/MiCV.pdf" download>

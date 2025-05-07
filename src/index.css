@@ -128,7 +128,7 @@ body{
 
 
 .theme{
-  background-image: url(./assets/img/bg.png);
+  background-image: url(./assets/img/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -153,7 +153,10 @@ body{
   margin-bottom: 240px;
 }
 
-
+.logo img{
+  width: 150px;
+  border-radius: 5px;
+}
 
 
 .modo{
@@ -317,7 +320,7 @@ body{
   width: 230px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 0 7.5px;
     margin: 0 auto 30px;
 }
@@ -479,6 +482,10 @@ a.active {
     margin-bottom: 15px;
 }
 
+.resumen-area_titulo span{
+ color: #fff;
+}
+
 .resumen-area_descricion-titulo h4{
     margin-bottom: 0;
     font-weight: 500;
@@ -507,6 +514,7 @@ a.active {
 }
 .resumen-area_card-item span{
   display: block;
+  color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
@@ -525,6 +533,7 @@ a.active {
 
 .resumen-area_card-item p{
   font-size: 16px;
+  color: #fff;
     font-weight: 400;
     margin-bottom: 0;
 }
